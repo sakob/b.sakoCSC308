@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #![no_std]
 #![no_main]
 
@@ -32,4 +33,8 @@ pub extern "C" fn _start() -> ! {
 #[panic_handler]
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
+=======
+fn main() {
+    println!("Hello, world!");
+>>>>>>> 5a3b30d (My first commit)
 }
